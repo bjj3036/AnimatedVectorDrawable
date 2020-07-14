@@ -12,3 +12,7 @@ Android Animated Vector Drawable
 1. Menu to Arrow
 
 2. Arrow to Menu
+
+[아이콘들 출처](https://material.io/resources/icons/?style=baseline)
+
+부드러운 전환을 위해 pathData를 수정하였습니다
