@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_baseline_arrow_back_24">
+    <target
+        android:animation="@animator/rotate_0_180"
+        android:name="rotationGroup"/>
+    <target
+        android:name="top"
+        android:animation="@animator/arrow_to_menu_top" />
+    <target
+        android:name="mid"
+        android:animation="@animator/arrow_to_menu_mid" />
+    <target
+        android:name="bottom"
+        android:animation="@animator/arrow_to_menu_bottom" />
+</animated-vector>
