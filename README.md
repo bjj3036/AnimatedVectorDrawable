@@ -6,3 +6,13 @@ Android Animated Vector Drawable
 [예시](https://stackoverflow.com/questions/41320989/android-hamburger-arrow-transition-on-new-fragment-activity)
 
 ![example](https://i.stack.imgur.com/QdE5x.gif)
+
+## 현재 만들어진 AnimatedVectorDrawable
+
+1. Menu to Arrow
+
+2. Arrow to Menu
+
+[아이콘들 출처](https://material.io/resources/icons/?style=baseline)
+
+부드러운 전환을 위해 pathData를 수정하였습니다
