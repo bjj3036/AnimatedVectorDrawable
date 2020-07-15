@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_baseline_close_24">
+    <target
+        android:name="rotationGroup"
+        android:animation="@animator/rotate_0_180" />
+    <target
+        android:name="top"
+        android:animation="@animator/close_to_menu_top" />
+    <target
+        android:name="mid"
+        android:animation="@animator/close_to_menu_mid" />
+    <target
+        android:name="bottom"
+        android:animation="@animator/close_to_menu_bottom" />
+
+</animated-vector>

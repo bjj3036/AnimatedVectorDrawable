@@ -14,19 +14,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        View v = findViewById(R.id.view);
-        v.setOnClickListener(vvv -> {
-            AnimatedVectorDrawable animationDrawable = (AnimatedVectorDrawable) vvv.getBackground();
-            if (!animationDrawable.isRunning()) {
-                if (toArrow) {
-                    vvv.setBackgroundResource(R.drawable.animator_menu_to_arrow);
-                } else {
-                    vvv.setBackgroundResource(R.drawable.animator_arrow_to_menu);
-                }
-                toArrow = !toArrow;
-                AnimatedVectorDrawable ad = (AnimatedVectorDrawable) vvv.getBackground();
-                ad.start();
-            }
-        });
+        View vMenuArrow = findViewById(R.id.view_menu_arrow);
+        vMenuArrow.setOnClickListener(new ToggleBackgroundClickListener(R.drawable.animator_menu_to_arrow, R.drawable.animator_arrow_to_menu));
+        View vMenuClose = findViewById(R.id.view_menu_close);
+        vMenuClose.setOnClickListener(new ToggleBackgroundClickListener(R.drawable.animator_menu_to_close, R.drawable.animator_close_to_menu));
     }
 }
