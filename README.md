@@ -5,7 +5,7 @@ Android Animated Vector Drawable
 
 [예시](https://stackoverflow.com/questions/41320989/android-hamburger-arrow-transition-on-new-fragment-activity)
 
-![example](https://i.stack.imgur.com/QdE5x.gif)
+![example](./preview.gif)
 
 ## 현재 만들어진 AnimatedVectorDrawable
 
