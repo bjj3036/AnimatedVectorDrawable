@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
-        android:duration="600"
+        android:duration="@integer/animator_duration"
         android:propertyName="pathData"
         android:valueFrom="M3,8l18,0l0,-2L3,6"
         android:valueTo="M5,6.41 l12.59,12.59 l1.41,-1.41 L6.41,5"

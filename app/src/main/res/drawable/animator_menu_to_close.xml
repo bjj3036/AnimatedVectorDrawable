@@ -2,7 +2,7 @@
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/ic_baseline_menu_24">
     <target
-        android:animation="@animator/rotate_180_360"
+        android:animation="@animator/rotate_0_180"
         android:name="rotationGroup"/>
     <target
         android:name="top"
