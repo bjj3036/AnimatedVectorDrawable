@@ -1,7 +1,9 @@
 # AnimatedVectorDrawable
 Android Animated Vector Drawable
 
-좀 더 감각적인 앱을 위한 다양한 애니메이션
+좀 더 감각적인 앱을 위한 Animated Vector
+
+[Material.io](https://material.io/design/motion/understanding-motion.html#hierarchy)에 나오는 Animated Vector을 비슷하게 만들어 봤습니다.
 
 [예시](https://stackoverflow.com/questions/41320989/android-hamburger-arrow-transition-on-new-fragment-activity)
 
