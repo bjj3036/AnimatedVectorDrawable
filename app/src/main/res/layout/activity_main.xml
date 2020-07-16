@@ -33,5 +33,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view_menu_close" />
+    <View
+        android:id="@+id/view_check"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/animator_check_draw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_pause_play" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,5 +20,7 @@ public class MainActivity extends AppCompatActivity {
         vMenuClose.setOnClickListener(new ToggleBackgroundClickListener(R.drawable.animator_menu_to_close, R.drawable.animator_close_to_menu));
         View vPausePlay = findViewById(R.id.view_pause_play);
         vPausePlay.setOnClickListener(new ToggleBackgroundClickListener(R.drawable.animator_pause_to_play, R.drawable.animator_play_to_pause));
+        View vCheck = findViewById(R.id.view_check);
+        vCheck.setOnClickListener(new ToggleBackgroundClickListener(R.drawable.animator_check_draw, R.drawable.animator_check_erase));
     }
 }
