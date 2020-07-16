@@ -25,5 +25,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view_menu_arrow" />
+    <View
+        android:id="@+id/view_pause_play"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/animator_pause_to_play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_menu_close" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
