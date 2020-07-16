@@ -23,6 +23,10 @@ Android Animated Vector Drawable
 
 6. Play to Pause
 
+7. Check Draw
+
+8. Check Remove
+
 [아이콘들 출처](https://material.io/resources/icons/?style=baseline)
 
 부드러운 전환을 위해 icon들의 pathData를 수정하였습니다
