@@ -8,8 +8,6 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private boolean toArrow = true;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,5 +20,7 @@ public class MainActivity extends AppCompatActivity {
         vPausePlay.setOnClickListener(new ToggleBackgroundClickListener(R.drawable.animator_pause_to_play, R.drawable.animator_play_to_pause));
         View vCheck = findViewById(R.id.view_check);
         vCheck.setOnClickListener(new ToggleBackgroundClickListener(R.drawable.animator_check_draw, R.drawable.animator_check_erase));
+        View vBuild = findViewById(R.id.view_build);
+        vBuild.setOnClickListener(new ToggleBackgroundClickListener(R.drawable.animator_build));
     }
 }

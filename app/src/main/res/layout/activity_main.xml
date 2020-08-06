@@ -12,37 +12,30 @@
         android:id="@+id/view_menu_arrow"
         android:layout_width="@dimen/size_icon"
         android:layout_height="@dimen/size_icon"
-        android:background="@drawable/animator_menu_to_arrow"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="@drawable/animator_menu_to_arrow" />
 
     <View
         android:id="@+id/view_menu_close"
         android:layout_width="@dimen/size_icon"
         android:layout_height="@dimen/size_icon"
-        android:background="@drawable/animator_menu_to_close"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view_menu_arrow" />
+        android:background="@drawable/animator_menu_to_close" />
 
     <View
         android:id="@+id/view_pause_play"
         android:layout_width="@dimen/size_icon"
         android:layout_height="@dimen/size_icon"
-        android:background="@drawable/animator_pause_to_play"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view_menu_close" />
+        android:background="@drawable/animator_pause_to_play"/>
 
     <View
         android:id="@+id/view_check"
         android:layout_width="@dimen/size_icon"
         android:layout_height="@dimen/size_icon"
-        android:background="@drawable/animator_check_draw"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view_pause_play" />
+        android:background="@drawable/animator_check_draw"/>
+
+    <View
+        android:id="@+id/view_build"
+        android:layout_width="@dimen/size_icon"
+        android:layout_height="@dimen/size_icon"
+        android:background="@drawable/animator_build"/>
 
 </GridLayout>

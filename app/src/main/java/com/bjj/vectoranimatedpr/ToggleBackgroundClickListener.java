@@ -16,6 +16,10 @@ public class ToggleBackgroundClickListener implements View.OnClickListener {
         this.secondRes = secondRes;
     }
 
+    public ToggleBackgroundClickListener(@DrawableRes int res) {
+        this.firstRes = this.secondRes = res;
+    }
+
     @Override
     public void onClick(View v) {
         AnimatedVectorDrawable animationDrawable = (AnimatedVectorDrawable) v.getBackground();

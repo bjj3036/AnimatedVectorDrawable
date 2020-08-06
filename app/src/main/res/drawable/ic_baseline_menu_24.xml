@@ -7,6 +7,7 @@
     <group
         android:name="rotationGroup"
         android:pivotX="12"
+        android:scaleX="2"
         android:pivotY="12">
 
         <path
